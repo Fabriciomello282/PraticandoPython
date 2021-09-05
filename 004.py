@@ -1,3 +1,5 @@
+#TREINANDO E ENTENDENDO O .IS
+
 a = input('digite um numero: ')
 print('Seu tipo primitivo é ', type(a))
 print('só tem espaços? ', a.isspace())
