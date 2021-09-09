@@ -1,9 +1,9 @@
-# TENTANDO ADIVINHAR QUAL NÚMERO IRÁ APARECER ENTRE 1 E 10. TRABALHANDO COM RANDOM E IF ELSE
-import random
-
+# TENTANDO ADIVINHAR QUAL NÚMERO
+# IRÁ APARECER ENTRE 0 E 5. TRABALHANDO COM RANDOM E IF ELSE
+from random import randint
 n = int(input('Digite um numero e tente acertar o que irá aparecer: '))
 
-numero = random.randint(1, 10)
+numero = randint(0, 5)
 
 if n == numero:
   print('PARABÉNS! VOCÊ ACERTOU!!! O NÚMERO É {}' .format(numero))
