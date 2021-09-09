@@ -1,5 +1,5 @@
 valorcasa = float(input('Digite o valor da casa R$: '))
-salario = float(input('Digite seu salário R$: '))
+salario = float(input('Digite seu salário R$: ' ))
 ano = int(input('Você quer pagar em quantos anos? '))
 prestacaomensal = valorcasa / (ano*12)
 

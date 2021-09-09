@@ -1,4 +1,4 @@
-n1 = int(input('Escolha o primeiro número: '))
+n1 = int(input('Escolha o primeiro número: ' ))
 n2 = int(input('Escolha o segundo número: '))
 
 if n1>n2:
