@@ -1,5 +1,5 @@
 # TENTANDO ADIVINHAR QUAL NÚMERO
-# IRÁ APARECER ENTRE 0 E 5. TRABALHANDO COM RANDOM E IF ELSE
+# IRÁ APARECER ENTRE 0 E 5. TRABALHANDO COM RANDOM, IF ELSE
 from random import randint
 n = int(input('Digite um numero e tente acertar o que irá aparecer: '))
 
