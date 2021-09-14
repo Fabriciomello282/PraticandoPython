@@ -1,3 +1,5 @@
+#JOGO SIMPLES DE PEDRA PAPEL E TESOURA COM O COMPUTADOR.
+
 from random import randint
 itens = ('pedra', 'papel', 'tesoura')
 maquina = randint(0, 2)
